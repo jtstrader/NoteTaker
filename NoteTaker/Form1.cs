@@ -51,7 +51,7 @@ namespace NoteTaker
             }
             catch(NullReferenceException exc)
             {
-                Console.WriteLine(exc.GetBaseException());
+                Console.WriteLine(exc.GetBaseException()); // send error message to console
                 index = -1;
             }
 
@@ -74,7 +74,7 @@ namespace NoteTaker
             }
             catch(NullReferenceException exc)
             {
-                Console.WriteLine(exc.GetBaseException());
+                Console.WriteLine(exc.GetBaseException()); // send error message to console
                 index = -1;
             }
 
